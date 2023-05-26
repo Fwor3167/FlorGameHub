@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  #wrap {
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Hangman container styles */
+  #wisielec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Hidden word container styles */
+  #haslo {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Hidden letter styles */
+  #litera {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    float: left;
+  }
+  
+  /* Buttons container styles */
+  #przyciski {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Button styles */
+  .przycisk {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #e6e6e6;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .przycisk:hover,
+  .przycisk:focus {
+    background-color: #ddd;
+  }
+  
+  .przycisk:active {
+    background-color: #ccc;
+  }
+  #center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #start {
+    width: 150px;
+    height: 50px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #start:hover,
+  #start:focus {
+    background-color: #449d44;
+  }
+  
+  #start:active {
+    background-color: #3e8e3e;
+  }

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+main{
+    height: 60vh;
+}
+header, footer{
+    height: 20vh;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+}
+#wrap{
+    width: 50%;
+    margin: auto;
+}
+#plate{
+    text-align: center;
+    position: absolute;
+}
